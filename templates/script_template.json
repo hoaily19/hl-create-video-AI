@@ -1,0 +1,69 @@
+{
+  "scenes": [
+    {
+      "title": "Cảnh 1 - Khởi đầu",
+      "description": "Mô tả chi tiết cảnh đầu tiên của video. Ví dụ: Một khu rừng rậm với ánh nắng xuyên qua tán cây, tạo ra những tia sáng lung linh.",
+      "dialogue": "Nhân vật A: 'Xin chào, tôi là nhân vật chính của câu chuyện này.'",
+      "narrator": "Người dẫn chuyện: 'Trong một khu rừng xa xôi, câu chuyện phiêu lưu bắt đầu...'",
+      "duration": "120 seconds (2 minutes)",
+      "transition": "fade_in",
+      "image_prompt": "Cinematic wide shot of a dense forest with sunlight filtering through trees, creating magical light rays, high quality, detailed"
+    },
+    {
+      "title": "Cảnh 2 - Phát triển",
+      "description": "Mô tả cảnh thứ hai, nơi câu chuyện phát triển. Ví dụ: Nhân vật chính bước vào một hang động bí ẩn với những bức tường phát sáng.",
+      "dialogue": "Nhân vật B: 'Chào mừng bạn đến với thế giới kỳ diệu này!'",
+      "narrator": "Người dẫn chuyện: 'Bên trong hang động, những bí mật cổ xưa đang chờ được khám phá...'",
+      "duration": "120 seconds (2 minutes)",
+      "transition": "slide_left",
+      "image_prompt": "Mysterious glowing cave interior with ancient walls, magical atmosphere, cinematic lighting, detailed textures"
+    },
+    {
+      "title": "Cảnh 3 - Kết thúc",
+      "description": "Mô tả cảnh cuối cùng, nơi câu chuyện kết thúc. Ví dụ: Nhân vật chính đứng trên đỉnh núi, nhìn xuống thung lũng rộng lớn.",
+      "dialogue": "Nhân vật A: 'Cuộc phiêu lưu này đã thay đổi tôi mãi mãi.'",
+      "narrator": "Người dẫn chuyện: 'Và như vậy, câu chuyện kết thúc, nhưng kỷ niệm sẽ còn mãi...'",
+      "duration": "120 seconds (2 minutes)",
+      "transition": "fade_out",
+      "image_prompt": "Epic mountain peak view overlooking vast valley, golden hour lighting, cinematic composition, high resolution"
+    }
+  ],
+  "prompt": "Một cuộc phiêu lưu kỳ thú trong thế giới tưởng tượng",
+  "style": "cinematic",
+  "provider": "google",
+  "timestamp": "2025-10-14T23:59:59",
+  "instructions": {
+    "title": "Hướng dẫn sử dụng file mẫu này:",
+    "steps": [
+      "1. Tải file này về máy",
+      "2. Mở file bằng text editor (Notepad, VS Code, etc.)",
+      "3. Chỉnh sửa nội dung theo ý tưởng của bạn:",
+      "   - Thay đổi 'title' cho từng cảnh",
+      "   - Viết lại 'description' mô tả chi tiết cảnh",
+      "   - Thêm 'dialogue' cho các nhân vật",
+      "   - Thêm 'narrator' cho người dẫn chuyện",
+      "   - Điều chỉnh 'duration' (thời lượng)",
+      "   - Chọn 'transition' (chuyển cảnh)",
+      "   - Viết 'image_prompt' để tạo ảnh",
+      "4. Lưu file",
+      "5. Upload file đã chỉnh sửa vào ứng dụng"
+    ],
+    "fields_explanation": {
+      "title": "Tiêu đề cảnh (ngắn gọn)",
+      "description": "Mô tả chi tiết cảnh (2-3 câu)",
+      "dialogue": "Đối thoại giữa các nhân vật (tùy chọn)",
+      "narrator": "Lời dẫn chuyện (tùy chọn)",
+      "duration": "Thời lượng cảnh (ví dụ: 120 seconds)",
+      "transition": "Chuyển cảnh (fade_in, fade_out, slide_left, slide_right, zoom_in, zoom_out)",
+      "image_prompt": "Mô tả để tạo ảnh (tiếng Anh, chi tiết)"
+    },
+    "example_transitions": [
+      "fade_in - Mờ dần vào",
+      "fade_out - Mờ dần ra", 
+      "slide_left - Trượt sang trái",
+      "slide_right - Trượt sang phải",
+      "zoom_in - Phóng to vào",
+      "zoom_out - Thu nhỏ ra"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+# Core dependencies
+streamlit>=1.28.0
+openai>=1.3.0
+pillow>=10.0.0
+moviepy>=1.0.3
+
+# Image generation
+requests>=2.31.0
+
+# Voice generation
+edge-tts>=6.1.0
+gtts>=2.3.0
+
+# Video processing
+numpy>=1.24.0
+opencv-python>=4.8.0
+
+# Utilities
+python-dotenv>=1.0.0
+psutil>=5.9.0
+
+# Google AI
+google-generativeai>=0.8.0
+
+# Azure Speech Service
+azure-cognitiveservices-speech>=1.34.0
+
+# Optional: For advanced image generation
+# stability-sdk>=0.8.0  # Uncomment if using Stability AI
+# diffusers>=0.21.0     # Uncomment if using HuggingFace Diffusers
+# replicate>=0.22.0     # Uncomment if using Replicate
+# anthropic>=0.7.0      # Uncomment if using Anthropic Claude
+# google-generativeai>=0.3.0  # Uncomment if using Google Gemini
+
+# Development dependencies (optional)
+# pytest>=7.4.0
+# black>=23.0.0
+# flake8>=6.0.0

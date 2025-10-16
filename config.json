@@ -1,0 +1,202 @@
+{
+  "api_keys": {
+    "openai": "",
+    "stability": "",
+    "replicate": "",
+    "huggingface": "",
+    "runwayml": "",
+    "pika_labs": "",
+    "leia_pix": "",
+    "midjourney": "",
+    "google": "",
+    "google_flow": "",
+    "azure": "",
+    "elevenlabs": ""
+  },
+  "default_providers": {
+    "script": "google",
+    "image": "pollinations",
+    "voice": "edge",
+    "video": "moviepy",
+    "motion": "google_flow"
+  },
+  "openai": {
+    "model": "gpt-4o-mini",
+    "temperature": 0.8,
+    "max_tokens": 2000,
+    "image_model": "dall-e-3",
+    "image_size": "1024x1024",
+    "image_quality": "standard",
+    "image_style": "vivid",
+    "tts_model": "tts-1",
+    "tts_voice": "alloy"
+  },
+  "stability": {
+    "model": "stable-diffusion-xl-1024-v1-0",
+    "cfg_scale": 7,
+    "steps": 30,
+    "samples": 1
+  },
+  "pollinations": {
+    "base_url": "https://image.pollinations.ai/prompt/",
+    "default_size": "1024x1024",
+    "nologo": true
+  },
+  "edge_tts": {
+    "default_voice": "vi-VN-HoaiMyNeural",
+    "default_rate": "+0%",
+    "default_pitch": "+0Hz"
+  },
+  "video": {
+    "fps": 24,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "scene_duration": 3.0,
+    "transition_duration": 0.5,
+    "output_quality": "high"
+  },
+  "available_voices": {
+    "edge": [
+      "vi-VN-HoaiMyNeural",
+      "vi-VN-NamMinhNeural",
+      "vi-VN-ThanhDatNeural",
+      "vi-VN-LinhNeural",
+      "en-US-AriaNeural",
+      "en-US-JennyNeural",
+      "en-US-GuyNeural",
+      "en-GB-SoniaNeural",
+      "en-GB-RyanNeural"
+    ],
+    "openai": [
+      "alloy",
+      "echo",
+      "fable",
+      "onyx",
+      "nova",
+      "shimmer"
+    ],
+    "gtts": [
+      "vi",
+      "en",
+      "en-us",
+      "en-gb"
+    ],
+    "azure": [
+      "vi-VN-HoaiMyNeural",
+      "vi-VN-NamMinhNeural",
+      "vi-VN-ThanhDatNeural",
+      "vi-VN-LinhNeural",
+      "en-US-AriaNeural",
+      "en-US-JennyNeural",
+      "en-US-GuyNeural",
+      "en-US-DavisNeural",
+      "en-US-EmmaNeural",
+      "en-US-BrianNeural",
+      "en-GB-SoniaNeural",
+      "en-GB-RyanNeural",
+      "en-GB-LibbyNeural",
+      "en-GB-MaisieNeural"
+    ],
+    "elevenlabs": [
+      "21m00Tcm4TlvDq8ikWAM",
+      "AZnzlk1XvdvUeBnXmlld",
+      "EXAVITQu4vr4xnSDxMaL",
+      "ErXwobaYiN019PkySvjV",
+      "MF3mGyEYCl7XYWbV9V6O",
+      "TxGEqnHWrfWFTfGW9XjX",
+      "VR6AewLTigWG4xSOukaG",
+      "pNInz6obpgDQGcFmaJgB",
+      "yoZ06aMxZJJ28mfd3POQ"
+    ]
+  },
+  "video_effects": [
+    "ken_burns",
+    "zoom_in",
+    "zoom_out",
+    "pan_left",
+    "pan_right",
+    "static"
+  ],
+  "image_sizes": [
+    "1024x1024",
+    "1792x1024",
+    "1024x1792"
+  ],
+  "video_styles": [
+    "cinematic",
+    "documentary",
+    "animation",
+    "educational"
+  ],
+  "image_providers": [
+    "pollinations",
+    "openai",
+    "stability",
+    "replicate",
+    "huggingface"
+  ],
+  "voice_providers": [
+    "edge",
+    "openai",
+    "gtts",
+    "azure",
+    "elevenlabs"
+  ],
+  "script_providers": [
+    "google",
+    "openai",
+    "anthropic"
+  ],
+  "motion_providers": [
+    "google_flow",
+    "runwayml",
+    "pika_labs",
+    "leia_pix",
+    "free"
+  ],
+  "motion_types": [
+    "subtle",
+    "medium",
+    "strong"
+  ],
+  "google_flow": {
+    "model": "gemini-2.0-flash-exp-image-generation",
+    "temperature": 0.7,
+    "max_tokens": 1024
+  },
+  "runwayml": {
+    "model": "gen3a_turbo",
+    "motion_intensity": "medium",
+    "duration": 3.0
+  },
+  "pika_labs": {
+    "style": "cinematic",
+    "duration": 3.0
+  },
+  "leia_pix": {
+    "motion_intensity": "medium",
+    "duration": 3.0
+  },
+  "azure": {
+    "region": "eastus",
+    "default_voice": "vi-VN-HoaiMyNeural",
+    "default_rate": "+0%",
+    "default_pitch": "+0Hz",
+    "default_style": "general"
+  },
+  "elevenlabs": {
+    "model": "eleven_multilingual_v2",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.5,
+      "style": 0.0,
+      "use_speaker_boost": true
+    },
+    "default_voice": "21m00Tcm4TlvDq8ikWAM",
+    "default_stability": 0.5,
+    "default_similarity_boost": 0.5,
+    "default_style": 0.0
+  }
+}
